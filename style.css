@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 50px;
+}
+
+.tajna-zprava {
+    color: white; /* Skrytý text */
+    background-color: white; /* Pozadí taky bílé */
+    cursor: pointer;
+    transition: 0.3s;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.tajna-zprava:hover, 
+.tajna-zprava:focus {
+    color: black; /* Po najetí nebo kliknutí se objeví text */
+    background-color: #ffeb3b; /* Lehce žluté pozadí */
+}
